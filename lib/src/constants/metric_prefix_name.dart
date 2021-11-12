@@ -1,0 +1,32 @@
+import 'package:converthis_unit/src/enum/metric_prefix.dart';
+
+final Map<MetricPrefix, String> metricPrefixName = {
+  MetricPrefix.atto: 'atto',
+  MetricPrefix.binaryExa: 'exa',
+  MetricPrefix.binaryGiga: 'giga',
+  MetricPrefix.binaryKilo: 'kilo',
+  MetricPrefix.binaryMega: 'mega',
+  MetricPrefix.binaryPeta: 'peta',
+  MetricPrefix.binaryTera: 'tera',
+  MetricPrefix.binaryYotta: 'yotta',
+  MetricPrefix.binaryZetta: 'zetta',
+  MetricPrefix.centi: 'centi',
+  MetricPrefix.deca: 'deca',
+  MetricPrefix.deci: 'deci',
+  MetricPrefix.exa: 'exa',
+  MetricPrefix.femto: 'femto',
+  MetricPrefix.giga: 'giga',
+  MetricPrefix.hecto: 'hecto',
+  MetricPrefix.kilo: 'kilo',
+  MetricPrefix.mega: 'mega',
+  MetricPrefix.micro: 'micro',
+  MetricPrefix.milli: 'milli',
+  MetricPrefix.nano: 'nano',
+  MetricPrefix.peta: 'peta',
+  MetricPrefix.pico: 'pico',
+  MetricPrefix.tera: 'tera',
+  MetricPrefix.yocto: 'yocto',
+  MetricPrefix.yotta: 'yotta',
+  MetricPrefix.zepto: 'zepto',
+  MetricPrefix.zetta: 'zetta'
+};
