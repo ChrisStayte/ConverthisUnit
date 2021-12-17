@@ -1,6 +1,6 @@
 import 'package:converthis_unit/src/enum/metric_prefix.dart';
 
-final Map<MetricPrefix, String> metricPrefixName = {
+final Map<MetricPrefix, String> metricPrefixNames = {
   MetricPrefix.atto: 'atto',
   MetricPrefix.binaryExa: 'exa',
   MetricPrefix.binaryGiga: 'giga',

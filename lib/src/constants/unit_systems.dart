@@ -3,7 +3,7 @@ import 'package:converthis_unit/src/enum/symbol_part.dart';
 import 'package:converthis_unit/src/enum/unit_system.dart';
 import 'package:converthis_unit/src/global/functions.dart';
 
-final Map<UnitSystem, String> unitSystem = {
+final Map<UnitSystem, String> unitSystems = {
   UnitSystem.australian: 'Australian',
   UnitSystem.binary: 'Binary',
   UnitSystem.boiler: 'Boiler',

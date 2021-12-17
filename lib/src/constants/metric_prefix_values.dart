@@ -1,7 +1,7 @@
 import 'package:converthis_unit/src/enum/metric_prefix.dart';
 import 'package:converthis_unit/src/model/prefix.dart';
 
-final Map<MetricPrefix, Prefix> metricPrefixvalue = {
+final Map<MetricPrefix, Prefix> metricPrefixValues = {
   MetricPrefix.atto: const Prefix(10, -18),
   MetricPrefix.binaryExa: const Prefix(2, 60),
   MetricPrefix.binaryGiga: const Prefix(2, 30),

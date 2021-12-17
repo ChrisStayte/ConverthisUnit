@@ -7,7 +7,8 @@ class Unit<T> {
   final Decimal conversionFactor;
   final T type;
   final bool variation;
-  UnitSystem? unitSystem;
-  Unit(this.name, this.symbol, this.conversionFactor, this.type,
-      {this.variation = false, this.unitSystem});
+  final String unitSystem;
+  Unit(
+      this.name, this.symbol, this.conversionFactor, this.type, this.unitSystem,
+      {this.variation = false});
 }

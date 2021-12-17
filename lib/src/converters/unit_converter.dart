@@ -18,16 +18,14 @@ class UnitConverter<T> {
   /// The base unit of this converter
   Unit<T> get baseUnit => unit(_baseUnit);
 
-  UnitConverter(this._type) : _baseUnit = baseUnits[_type] as T {}
+  UnitConverter(this._type) : _baseUnit = baseUnits[_type] as T;
 
   Decimal convert({required Decimal value, required T from, required T to}) {
     if (from != to) {
       switch (_type) {
         default:
-          final fromOffset = conversionFactor(_type, from);
-          final toOffset = conversionFactor(_type, to);
-          value *= fromOffset;
-          value /= toOffset;
+          value *= unit(from).conversionFactor;
+          value /= unit(to).conversionFactor;
           return value;
       }
     }
